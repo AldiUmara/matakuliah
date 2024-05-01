@@ -35,7 +35,7 @@
                     <div class="col">
                         <div class="service-box">
                             <div class="icon">
-                                <img src="assets/images/icons/service6.png" alt="Service">
+                                <img src="<?php base_url()?>/images/icons/service6.png" alt="Service">
                             </div>
                             <h6 class="title">Fast &amp; Secure Delivery</h6>
                         </div>
@@ -43,7 +43,7 @@
                     <div class="col">
                         <div class="service-box">
                             <div class="icon">
-                                <img src="assets/images/icons/service7.png" alt="Service">
+                                <img src="<?php base_url()?>/images/icons/service7.png" alt="Service">
                             </div>
                             <h6 class="title">100% Guarantee On Product</h6>
                         </div>
@@ -51,7 +51,7 @@
                     <div class="col">
                         <div class="service-box">
                             <div class="icon">
-                                <img src="assets/images/icons/service8.png" alt="Service">
+                                <img src="<?php base_url()?>/images/icons/service8.png" alt="Service">
                             </div>
                             <h6 class="title">24 Hour Return Policy</h6>
                         </div>
@@ -59,7 +59,7 @@
                     <div class="col">
                         <div class="service-box">
                             <div class="icon">
-                                <img src="assets/images/icons/service9.png" alt="Service">
+                                <img src="<?php base_url()?>/images/icons/service9.png" alt="Service">
                             </div>
                             <h6 class="title">24 Hour Return Policy</h6>
                         </div>
@@ -67,7 +67,7 @@
                     <div class="col">
                         <div class="service-box">
                             <div class="icon">
-                                <img src="assets/images/icons/service10.png" alt="Service">
+                                <img src="<?php base_url()?>/images/icons/service10.png" alt="Service">
                             </div>
                             <h6 class="title">Next Level Pro Quality</h6>
                         </div>
@@ -85,7 +85,7 @@
                     <div class="col-lg-6 mb--30">
                         <div class="single-poster">
                             <a href="shop.html">
-                                <img src="assets/images/product/poster/poster-01.png" alt="eTrade promotion poster">
+                                <img src="<?php base_url()?>/images/product/poster/poster-01.png" alt="eTrade promotion poster">
                                 <div class="poster-content">
                                     <div class="inner">
                                         <h3 class="title">Rich sound, <br> for less.</h3>
@@ -100,7 +100,7 @@
                     <div class="col-lg-6 mb--30">
                         <div class="single-poster">
                             <a href="shop-sidebar.html">
-                                <img src="assets/images/product/poster/poster-02.png" alt="eTrade promotion poster">
+                                <img src="<?php base_url()?>/images/product/poster/poster-02.png" alt="eTrade promotion poster">
                                 <div class="poster-content content-left">
                                     <div class="inner">
                                         <span class="sub-title">50% Offer In Winter</span>
@@ -157,7 +157,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="assets/images/icons/service2.png" alt="Service">
+                            <img src="<?php base_url()?>/images/icons/service2.png" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Money Back Guarantee</h6>
@@ -168,7 +168,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="assets/images/icons/service3.png" alt="Service">
+                            <img src="<?php base_url()?>/images/icons/service3.png" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">24 Hour Return Policy</h6>
@@ -179,7 +179,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="assets/images/icons/service4.png" alt="Service">
+                            <img src="<?php base_url()?>/images/icons/service4.png" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Pro Quality Support</h6>
@@ -202,7 +202,7 @@
                             <h5 class="widget-title">Support</h5>
                             <!-- <div class="logo mb--30">
                             <a href="index.html">
-                                <img class="light-logo" src="assets/images/logo/logo.png" alt="Logo Images">
+                                <img class="light-logo" src="<?php base_url()?>/images/logo/logo.png" alt="Logo Images">
                             </a>
                         </div> -->
                             <div class="inner">
@@ -259,14 +259,14 @@
                                 <span>Save $3 With App & New User only</span>
                                 <div class="download-btn-group">
                                     <div class="qr-code">
-                                        <img src="assets/images/others/qr.png" alt="Axilthemes">
+                                        <img src="<?php base_url()?>/images/others/qr.png" alt="Axilthemes">
                                     </div>
                                     <div class="app-link">
                                         <a href="#">
-                                            <img src="assets/images/others/app-store.png" alt="App Store">
+                                            <img src="<?php base_url()?>/images/others/app-store.png" alt="App Store">
                                         </a>
                                         <a href="#">
-                                            <img src="assets/images/others/play-store.png" alt="Play Store">
+                                            <img src="<?php base_url()?>/images/others/play-store.png" alt="Play Store">
                                         </a>
                                     </div>
                                 </div>
@@ -302,9 +302,9 @@
                         <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
                             <span class="card-text">Accept For</span>
                             <ul class="payment-icons-bottom quick-link">
-                                <li><img src="assets/images/icons/cart/cart-1.png" alt="paypal cart"></li>
-                                <li><img src="assets/images/icons/cart/cart-2.png" alt="paypal cart"></li>
-                                <li><img src="assets/images/icons/cart/cart-5.png" alt="paypal cart"></li>
+                                <li><img src="<?php base_url()?>/images/icons/cart/cart-1.png" alt="paypal cart"></li>
+                                <li><img src="<?php base_url()?>/images/icons/cart/cart-2.png" alt="paypal cart"></li>
+                                <li><img src="<?php base_url()?>/images/icons/cart/cart-5.png" alt="paypal cart"></li>
                             </ul>
                         </div>
                     </div>
@@ -330,34 +330,34 @@
                                     <div class="col-lg-10 order-lg-2">
                                         <div class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
                                             <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-01.png" alt="Product Images">
+                                                <img src="<?php base_url()?>/images/product/product-big-01.png" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-01.png" class="popup-zoom">
+                                                    <a href="<?php base_url()?>/images/product/product-big-01.png" class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-02.png" alt="Product Images">
+                                                <img src="<?php base_url()?>/images/product/product-big-02.png" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-02.png" class="popup-zoom">
+                                                    <a href="<?php base_url()?>/images/product/product-big-02.png" class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-03.png" alt="Product Images">
+                                                <img src="<?php base_url()?>/images/product/product-big-03.png" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-03.png" class="popup-zoom">
+                                                    <a href="<?php base_url()?>/images/product/product-big-03.png" class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
                                                     </a>
                                                 </div>
@@ -367,13 +367,13 @@
                                     <div class="col-lg-2 order-lg-1">
                                         <div class="product-small-thumb small-thumb-wrapper">
                                             <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-08.png" alt="thumb image">
+                                                <img src="<?php base_url()?>/images/product/product-thumb/thumb-08.png" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-07.png" alt="thumb image">
+                                                <img src="<?php base_url()?>/images/product/product-thumb/thumb-07.png" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-09.png" alt="thumb image">
+                                                <img src="<?php base_url()?>/images/product/product-thumb/thumb-09.png" alt="thumb image">
                                             </div>
                                         </div>
                                     </div>
@@ -384,7 +384,7 @@
                                     <div class="inner">
                                         <div class="product-rating">
                                             <div class="star-rating">
-                                                <img src="assets/images/icons/rate.png" alt="Rate Images">
+                                                <img src="<?php base_url()?>/images/icons/rate.png" alt="Rate Images">
                                             </div>
                                             <div class="review-link">
                                                 <a href="#">(<span>1</span> customer reviews)</a>
@@ -479,7 +479,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="<?php base_url()?>/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -507,7 +507,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="<?php base_url()?>/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -549,7 +549,7 @@
                 <ul class="cart-item-list">
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product.html"><img src="assets/images/product/electric/product-01.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product.html"><img src="<?php base_url()?>/images/product/electric/product-01.png" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -572,7 +572,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="assets/images/product/electric/product-02.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-2.html"><img src="<?php base_url()?>/images/product/electric/product-02.png" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -595,7 +595,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="assets/images/product/electric/product-03.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-3.html"><img src="<?php base_url()?>/images/product/electric/product-03.png" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -652,27 +652,27 @@
     <!-- JS
 ============================================ -->
     <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="<?php base_url()?>/js/vendor/jquery.js"></script>
     <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/js.cookie.js"></script>
-    <!-- <script src="assets/js/vendor/jquery.style.switcher.js"></script> -->
-    <script src="assets/js/vendor/jquery-ui.min.js"></script>
-    <script src="assets/js/vendor/jquery.ui.touch-punch.min.js"></script>
-    <script src="assets/js/vendor/jquery.countdown.min.js"></script>
-    <script src="assets/js/vendor/sal.js"></script>
-    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="assets/js/vendor/counterup.js"></script>
-    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/popper.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/bootstrap.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/slick.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/js.cookie.js"></script>
+    <!-- <script src="<?php base_url()?>/js/vendor/jquery.style.switcher.js"></script> -->
+    <script src="<?php base_url()?>/js/vendor/jquery-ui.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/jquery.ui.touch-punch.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/jquery.countdown.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/sal.js"></script>
+    <script src="<?php base_url()?>/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="<?php base_url()?>/js/vendor/counterup.js"></script>
+    <script src="<?php base_url()?>/js/vendor/waypoints.min.js"></script>
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="<?php base_url()?>/js/main.js"></script>
 
 </body>
 

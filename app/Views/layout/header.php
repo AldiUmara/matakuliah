@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="<?php base_url()?>/css/base.css">
     <link rel="stylesheet" href="<?php base_url()?>/css/style.min.css">
 
+    <script src="https://kit.fontawesome.com/1323889f01.js" crossorigin="anonymous"></script>
+
 </head>
 
 

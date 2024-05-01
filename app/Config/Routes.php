@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Thrift::index');
+$routes->get('/', 'Beranda::index');
 $routes->get('/perkenalan', 'perkenalan::index');
 $routes->get('/contoh1', 'Contoh1::index');
 $routes->get('/contoh1/penjumlahan/(:num)/(:num)', 'Contoh1::penjumlahan/$1/$2'); 
@@ -15,3 +15,4 @@ $routes->get('/produk', 'Produk::index');
 
 $routes->get('/login', 'Login::index');
 $routes->get('/register', 'Register::index');
+$routes->get('/beranda', 'Beranda::index');
