@@ -3,117 +3,238 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
     <a href="#top" class="back-to-top" id="backto-top"><i class="fal fa-arrow-up"></i></a>
+    <!-- Start Header -->
 
     <main class="main-wrapper">
-        <!-- Start Breadcrumb Area  -->
-        <div class="axil-breadcrumb-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="inner">
-                            <!-- <ul class="axil-breadcrumb">
-                                <li class="axil-breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="separator"></li>
-                                <li class="axil-breadcrumb-item active" aria-current="page">Contact</li>
-                            </ul> -->
-                            <h1 class="title">Hubungi Kami</h1>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-4">
-                        <div class="inner">
-                            <div class="bradcrumb-thumb">
-                                <img src="<?php base_url() ?>/images/product/product-45.png" alt="Image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Breadcrumb Area  -->
 
-        <!-- Start Contact Area  -->
-        <div class="axil-contact-page-area axil-section-gap">
+        <!-- Start Checkout Area  -->
+        <div class="axil-checkout-area axil-section-gap">
             <div class="container">
-                <div class="axil-contact-page">
-                    <div class="row row--30">
-                        <div class="col-lg-8">
-                            <div class="contact-form">
-                                <h3 class="title mb--10">Kami ingin sekali mendengar pendapat Anda.</h3>
-                                <p>Jika Anda memiliki produk hebat yang Anda buat atau ingin bekerja sama dengan kami,
-                                    hubungi kami.</p>
-                                <form id="contact-form" method="POST"
-                                    action="https://new.axilthemes.com/demo/template/etrade/mail.php"
-                                    class="axil-contact-form">
-                                    <div class="row row--10">
-                                        <div class="col-lg-4">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="axil-checkout-notice">
+                                <div class="axil-toggle-box">
+                                    <div class="toggle-bar"><i class="fas fa-user"></i> Pelanggan yang kembali?<a
+                                            href="javascript:void(0)" class="toggle-btn">Klik di sini untuk login <i
+                                                class="fas fa-angle-down"></i></a>
+                                    </div>
+                                    <div class="axil-checkout-login toggle-open">
+                                        <p>Jika Anda tidak Masuk, Silakan Masuk terlebih dahulu.</p>
+                                        <div class="signin-box">
                                             <div class="form-group">
-                                                <label for="contact-name">Nama <span>*</span></label>
-                                                <input type="text" name="contact-name" id="contact-name">
+                                                <label>Email</label>
+                                                <input type="email" class="form-control" name="email">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4">
                                             <div class="form-group">
-                                                <label for="contact-phone">Nomor tlp <span>*</span></label>
-                                                <input type="text" name="contact-phone" id="contact-phone">
+                                                <label>Password</label>
+                                                <input type="password" class="form-control" name="password">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <label for="contact-email">E-mail <span>*</span></label>
-                                                <input type="email" name="contact-email" id="contact-email">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label for="contact-message">Pesan Anda</label>
-                                                <textarea name="contact-message" id="contact-message" cols="1"
-                                                    rows="2"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
                                             <div class="form-group mb--0">
-                                                <button name="submit" type="submit" id="submit"
-                                                    class="axil-btn btn-bg-primary">Kirim Pesan</button>
+                                                <button type="submit" class="axil-btn btn-bg-primary submit-btn">Sign
+                                                    In</button>
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
+                                <div class="axil-toggle-box">
+                                    <!-- <div class="toggle-bar"><i class="fas fa-pencil"></i> Have a coupon? <a href="javascript:void(0)" class="toggle-btn">Click here to enter your code <i class="fas fa-angle-down"></i></a>
+                                    </div> -->
+
+                                    <div class="axil-checkout-coupon toggle-open">
+                                        <!-- <p>If you have a coupon code, please apply it below.</p> -->
+                                        <div class="input-group">
+                                            <input placeholder="Enter coupon code" type="text">
+                                            <div class="apply-btn">
+                                                <button type="submit" class="axil-btn btn-bg-primary">Apply</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="axil-checkout-billing">
+                                <h4 class="title mb--40">Rincian Tagihan</h4>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Nama Depan <span>*</span></label>
+                                            <input type="text" id="first-name" placeholder="Aldi">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label>Nama Belakang <span>*</span></label>
+                                            <input type="text" id="last-name" placeholder="Umara">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Nama Perusahaan</label>
+                                    <input type="text" id="company-name">
+                                </div>
+                                <div class="form-group">
+                                    <label>Negara/Wilayah</label>
+                                    <input type="text" id="company-name">
+                                    <select id="Region">
+                                        <option value="3">Indonesia</option>
+                                        <!-- <option value="4">Malaysia</option>
+                                        <option value="6">New Zealand</option>
+                                        <option value="5">Switzerland</option>
+                                        <option value="1">United Kindom (UK)</option>
+                                        <option value="2">United States (USA)</option> -->
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Alamat Jalan <span>*</span></label>
+                                    <input type="text" id="address1" class="mb--15"
+                                        placeholder="Nomer Rumah dan Nama Jalan">
+                                    <input type="text" id="address2" placeholder="Apartemen, suite, unit, dll. (opsi)">
+                                </div>
+                                <div class="form-group">
+                                    <label>Kota <span>*</span></label>
+                                    <input type="text" id="town">
+                                </div>
+                                <div class="form-group">
+                                    <label>Negara</label>
+                                    <input type="text" id="country">
+                                </div>
+                                <div class="form-group">
+                                    <label>No. Telepon <span>*</span></label>
+                                    <input type="tel" id="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label>Alamat Email <span>*</span></label>
+                                    <input type="email" id="email">
+                                </div>
+                                <div class="form-group input-group">
+                                    <input type="checkbox" id="checkbox1" name="account-create">
+                                    <label for="checkbox1">Buat akun?</label>
+                                </div>
+                                <div class="form-group different-shippng">
+                                    <div class="toggle-bar">
+                                        <a href="javascript:void(0)" class="toggle-btn">
+                                            <input type="checkbox" id="checkbox2" name="diffrent-ship">
+                                            <label for="checkbox2">Kirim ke alamat lain?</label>
+                                        </a>
+                                    </div>
+                                    <div class="toggle-open">
+                                        <div class="form-group">
+                                            <label>Negara/ Wilayah <span>*</span></label>
+                                            <select id="Region">
+                                                <option value="3">Indonesia</option>
+                                                <!-- <option value="4">England</option>
+                                                <option value="6">New Zealand</option>
+                                                <option value="5">Switzerland</option>
+                                                <option value="1">United Kindom (UK)</option>
+                                                <option value="2">United States (USA)</option> -->
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>AlamaT Jalan <span>*</span></label>
+                                            <input type="text" id="address1" class="mb--15"
+                                                placeholder="House number and street name">
+                                            <input type="text" id="address2"
+                                                placeholder="Apartment, suite, unit, etc. (optonal)">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Kota<span>*</span></label>
+                                            <input type="text" id="town">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Negara</label>
+                                            <input type="text" id="country">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>No. Telepon <span>*</span></label>
+                                            <input type="tel" id="phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Catatan Lainnya (opsi)</label>
+                                    <textarea id="notes" rows="2"
+                                        placeholder="Catatan tentang pesanan Anda, misalnya catatan khusus untuk pengiriman."></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="contact-location mb--40">
-                                <h4 class="title mb--20">Toko kami</h4>
-                                <span class="address mb--20">Gg. Chober No. 54 <br>
-                                    Kembangan Selatan, Kode Pos : 1610<br>
-                                    Jakarta Barat.</span>
-                                <span class="phone">No. Telepon: </span>
-                                <span class="email">Email: aldiumara1@gmail.com</span>
-                            </div>
-                            <div class="contact-career mb--40">
-                                <h4 class="title mb--20">Karir</h4>
-                                <p>Daripada membeli enam barang, pilihlah satu yang benar-benar Anda sukai.</p>
-                            </div>
-                            <div class="opening-hour">
-                                <h4 class="title mb--20">Jam Buka :</h4>
-                                <p>Senin-Sabtu: 10.00- 22.00
-                                    <br> Minggu: 10.00 - 18.00
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Start Google Map Area  -->
-                <!-- <div class="axil-google-map-wrap axil-section-gap pb--0">
-                    <div class="mapouter">
-                        <div class="gmap_canvas">
-                            <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=melbourne&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- End Google Map Area  -->
-            </div>
-        </div>
-        <!-- End Contact Area  -->
+                        <div class="col-lg-6">
+                            <div class="axil-order-summery order-checkout-summery">
+                                <h5 class="title mb--20">Pesanan Anda</h5>
+                                <div class="summery-table-wrap">
+                                    <table class="table summery-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Produk</th>
+                                                <th>Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="order-product">
+                                                <td>Sneaker <span class="quantity">x1</span></td>
+                                                <td>Rp 350.000</td>
+                                            </tr>
+                                            <tr class="order-product">
+                                                <td>Ortuseight <span class="quantity">x1</span></td>
+                                                <td>Rp 250.000</td>
+                                            </tr>
+                                            <tr class="order-product">
+                                                <td>Specs <span class="quantity">x1</span></td>
+                                                <td>Rp 200.000</td>
+                                            <tr class="order-tax">
+                                                <td>Pajak</td>
+                                                <td>Rp 2.000</td>
+                                            </tr>
+                                            <tr class="order-subtotal">
+                                                <td>Total</td>
+                                                <td>Rp 800.000</td>
+                                            </tr>
+                                            <tr class="order-shipping">
+                                                <td colspan="2">
+                                                    <div class="shipping-amount">
+                                                        <span class="title">Metode Pengiriman</span>
+                                                        <!-- <span class="amount">$35.00</span> -->
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="radio" id="radio1" name="shipping" checked>
+                                                        <label for="radio1">Gratis Pengiriman</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="radio" id="radio2" name="shipping">
+                                                        <label for="radio2">Jne</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="radio" id="radio3" name="shipping">
+                                                        <label for="radio3">Jnt</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="order-total">
+                                                <td>Total Keseluruhan</td>
+                                                <td class="order-total-amount">Rp 802.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="order-payment-method">
+                                    <div class="single-payment">
+                                        <div class="input-group">
+                                            <input type="radio" id="radio4" name="payment">
+                                            <label for="radio4">Transfer bank langsung</label>
+                                        </div>
+                                        <p>Lakukan pembayaran langsung ke rekening bank kami. Silakan gunakan ID Pesanan
+                                            Anda sebagai referensi pembayaran. Pesanan Anda tidak akan dikirim sampai
+                                            dana telah dibersihkan di akun kami.
+                                    </div>
+                                    <div class="single-payment">
+                                        <div class="input-group">
+                                            <input type="radio" id="radio5" name="payment">
+                                            <label for="radio5">Tunai atau Non Tunai</label>
+                                        </div>
+                                        <p>Bayar dengan uang tunai saat pengiriman.</p>
+                                    </div>
+
+                                    <!-- End Checkout Area  -->
+
     </main>
 
 
@@ -493,6 +614,6 @@
 </body>
 
 
-<!-- Mirrored from new.axilthemes.com/demo/template/etrade/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 13:41:09 GMT -->
+<!-- Mirrored from new.axilthemes.com/demo/template/etrade/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 13:41:10 GMT -->
 
 </html>

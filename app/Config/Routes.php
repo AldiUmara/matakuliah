@@ -20,3 +20,5 @@ $routes->get('/shop', 'Shop::index');
 $routes->get('/contact', 'Contact::index');
 $routes->get('/cart', 'Cart::index');
 $routes->get('/wishlist', 'Wishlist::index');
+$routes->get('/checkout', 'Checkout::index');
+$routes->get('/product1', 'Product1::index');

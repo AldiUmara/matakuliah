@@ -1,9 +1,9 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
 
 
 <!-- Mirrored from new.axilthemes.com/demo/template/etrade/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 13:41:10 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,22 +12,22 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?php base_url()?>/images/logo/logo_titel.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php base_url() ?>/images/logo/logo_titel.png">
 
     <!-- CSS
     ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php base_url()?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/font-awesome.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/flaticon/flaticon.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/slick.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/slick-theme.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/sal.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/magnific-popup.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/base.css">
-    <link rel="stylesheet" href="<?php base_url()?>/css/style.min.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/font-awesome.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/flaticon/flaticon.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/slick.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/slick-theme.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/sal.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/base.css">
+    <link rel="stylesheet" href="<?php base_url() ?>/css/style.min.css">
 
     <script src="https://kit.fontawesome.com/1323889f01.js" crossorigin="anonymous"></script>
 
@@ -45,8 +45,8 @@
             <div class="container position-relative">
                 <div class="campaign-content">
                     <p style="color : black">Walcome To Thrift Family Store</p> -->
-                    <!-- <a href="#">Discover More</a> -->
-                <!-- </div>
+        <!-- <a href="#">Discover More</a> -->
+        <!-- </div>
             </div>
             <button class="remove-campaign"><i class="fal fa-times"></i></button>
         </div>
@@ -97,11 +97,11 @@
             <div class="container">
                 <div class="header-navbar" style="background-color: #1e2a78;  color: yellow;">
                     <div class="header-brand">
-                        <a href="<?php base_url()?>/beranda" class="logo logo-dark">
-                            <img src="<?php base_url()?>/images/logo/logo_thrift.png" alt="Site Logo">
+                        <a href="<?php base_url() ?>/beranda" class="logo logo-dark">
+                            <img src="<?php base_url() ?>/images/logo/logo_thrift.png" alt="Site Logo">
                         </a>
-                        <a href="<?php base_url()?>/beranda" class="logo logo-light">
-                            <img src="<?php base_url()?>/images/logo/logo_titel.png" alt="Site Logo">
+                        <a href="<?php base_url() ?>/beranda" class="logo logo-light">
+                            <img src="<?php base_url() ?>/images/logo/logo_titel.png" alt="Site Logo">
                         </a>
                     </div>
                     <div class="header-main-nav">
@@ -109,31 +109,31 @@
                         <nav class="mainmenu-nav">
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
-                                <a href="<?php base_url()?>/beranda" class="logo">
-                                    <img src="<?php base_url()?>/images/logo/logo_thrift.png" alt="Site Logo">
+                                <a href="<?php base_url() ?>/beranda" class="logo">
+                                    <img src="<?php base_url() ?>/images/logo/logo_thrift.png" alt="Site Logo">
                                 </a>
                             </div>
-                            
+
                             <ul class="mainmenu">
-        
+
                                 <!-- <li class="menu-item-has-children"> -->
-                                    <!-- <a style="color: gold" href="<?php base_url()?>/beranda">Beranda</a> -->
-                                    <ul class="axil-submenu">
-                                        <!-- <li><a href="index-1.html">Home - Electronics</a></li>
+                                <!-- <a style="color: gold" href="<?php base_url() ?>/beranda">Beranda</a> -->
+                                <ul class="axil-submenu">
+                                    <!-- <li><a href="index-1.html">Home - Electronics</a></li>
                                         <li><a href="index-2.html">Home - NFT</a></li>
                                         <li><a href="index-3.html">Home - Fashion</a></li>
                                         <li><a href="index-4.html">Home - Jewellery</a></li>
                                         <li><a href="index-5.html">Home - Furniture</a></li>
                                         <li><a href="index-7.html">Home - Multipurpose</a></li>
                                         <li><a href="https://new.axilthemes.com/demo/template/etrade-rtl/">RTL Version</a></li> -->
-                                    </ul>
+                                </ul>
                                 </li>
                                 <!-- <li class="menu-item-has-children"> -->
-                                    <!-- <a style="color: gold"href="<?php base_url()?>/shop">Product</a> -->
-                                    <ul class="axil-submenu">
-                                        <!-- <li><a href="shop-sidebar.html">Shop With Sidebar</a></li> -->
-                                        <!-- <li><a  href="">All Product</a></li> -->
-                                        <!-- <li><a href="single-product.html">Product Variation 1</a></li>
+                                <!-- <a style="color: gold"href="<?php base_url() ?>/shop">Product</a> -->
+                                <ul class="axil-submenu">
+                                    <!-- <li><a href="shop-sidebar.html">Shop With Sidebar</a></li> -->
+                                    <!-- <li><a  href="">All Product</a></li> -->
+                                    <!-- <li><a href="single-product.html">Product Variation 1</a></li>
                                         <li><a href="single-product-2.html">Product Variation 2</a></li>
                                         <li><a href="single-product-3.html">Product Variation 3</a></li>
                                         <li><a href="single-product-4.html">Product Variation 4</a></li>
@@ -141,7 +141,7 @@
                                         <li><a href="single-product-6.html">Product Variation 6</a></li>
                                         <li><a href="single-product-7.html">Product Variation 7</a></li>
                                         <li><a href="single-product-8.html">Product Variation 8</a></li> -->
-                                    </ul>
+                                </ul>
                                 </li>
                                 <!-- <li class="menu-item-has-children">
                                     <a href="#">Pages</a>
@@ -173,9 +173,9 @@
                                         <li><a href="blog-quote.html">Quote Post</a></li>
                                     </ul>
                                 </li> -->
-                                <li><a style="color: gold" href="<?php base_url()?>/beranda">Beranda</a></li>
-                                <li><a style="color: gold"href="<?php base_url()?>/shop">Produk</a></li>
-                                <li><a style="color: gold" href="<?php base_url()?>/contact">Kontak</a></li>
+                                <li><a style="color: gold" href="<?php base_url() ?>/beranda">Beranda</a></li>
+                                <li><a style="color: gold" href="<?php base_url() ?>/shop">Produk</a></li>
+                                <li><a style="color: gold" href="<?php base_url() ?>/contact">Kontak</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
@@ -224,7 +224,8 @@
                                     <div class="login-btn">
                                         <a href="login" class="axil-btn btn-bg-primary">Login</a>
                                     </div>
-                                    <div class="reg-footer text-center">Belum Memiliki Akun? <a href="register" class="btn-link">REGISTER DISINI.</a></div>
+                                    <div class="reg-footer text-center">Belum Memiliki Akun? <a href="register"
+                                            class="btn-link">REGISTER DISINI.</a></div>
                                 </div>
                             </li>
                             <li class="axil-mobile-toggle">
@@ -239,3 +240,104 @@
         </div>
         <!-- End Mainmenu Area -->
     </header>
+
+    <!-- Header Search Modal End -->
+
+
+    <div class="cart-dropdown" id="cart-dropdown">
+        <div class="cart-content-wrap">
+            <div class="cart-header">
+                <h2 class="header-title">Ulasan Keranjang</h2>
+                <button class="cart-close sidebar-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-body">
+                <ul class="cart-item-list">
+                    <li class="cart-item">
+                        <div class="item-img">
+                            <a href="single-product.html"><img
+                                    src="<?php base_url() ?>/images/product/sepatu/blog-08.png"
+                                    alt="Commodo Blown Lamp"></a>
+                            <button class="close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="item-content">
+                            <div class="product-rating">
+                                <span class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(64)</span>
+                            </div>
+                            <h3 class="item-title"><a href="single-product-3.html">Sneaker</a></h3>
+                            <div class="item-price"><span class="">Rp </span>250.000</div>
+                            <div class="pro-qty item-quantity">
+                                <input type="number" class="quantity-input" value="1">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cart-item">
+                        <div class="item-img">
+                            <a href="single-product-2.html"><img
+                                    src="<?php base_url() ?>/images/product/sepatu/blog-09.png"
+                                    alt="Commodo Blown Lamp"></a>
+                            <button class="close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="item-content">
+                            <div class="product-rating">
+                                <span class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(4)</span>
+                            </div>
+                            <h3 class="item-title"><a href="single-product-2.html">Ortuseight</a></h3>
+                            <div class="item-price"><span class="">Rp </span>350.000</div>
+                            <div class="pro-qty item-quantity">
+                                <input type="number" class="quantity-input" value="1">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cart-item">
+                        <div class="item-img">
+                            <a href="single-product-3.html"><img
+                                    src="<?php base_url() ?>/images/product/sepatu/blog-09.png"
+                                    alt="Commodo Blown Lamp"></a>
+                            <button class="close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="item-content">
+                            <div class="product-rating">
+                                <span class="icon">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="rating-number">(6)</span>
+                            </div>
+                            <h3 class="item-title"><a href="single-product.html">Specs</a></h3>
+                            <div class="item-price"><span class="">Rp </span>200.000</div>
+                            <div class="pro-qty item-quantity">
+                                <input type="number" class="quantity-input" value="1">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-footer">
+                <h3 class="cart-subtotal">
+                    <span class="subtotal-title">Total :</span>
+                    <span class="subtotal-amount">Rp 800.000</span>
+                </h3>
+                <div class="group-btn">
+                    <a href="cart" class="axil-btn btn-bg-primary viewcart-btn">Lihat Keranjang</a>
+                    <a href="checkout" class="axil-btn btn-bg-secondary checkout-btn">Pesan</a>
+                </div>
+            </div>
+        </div>
+    </div>
