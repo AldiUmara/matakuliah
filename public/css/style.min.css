@@ -2885,7 +2885,7 @@ input[type=submit]:hover {
 
 .axil-breadcrumb-area {
     position: relative;
-    background-color: #f8f8f8;
+    background-color: gold;
     padding: 40px 0 45px
 }
 
@@ -3030,13 +3030,14 @@ button.axil-btn.right-icon i {
 a.axil-btn.btn-bg-white,
 button.axil-btn.btn-bg-white {
     background-color: var(--color-white);
-    color: var(--color-heading);
+    color: #1e2a78;
     box-shadow: 0 16px 32px 0 rgba(103, 103, 103, .06)
 }
 
 a.axil-btn.btn-bg-white:before,
 button.axil-btn.btn-bg-white:before {
-    background-color: var(--color-white)
+    background-color: var(--color-white);
+    border : solid #1e2a78;
 }
 
 a.axil-btn.btn-bg-lighter,
@@ -5161,7 +5162,9 @@ button.axil-btn.btn-size-md i {
 }
 
 .main-slider-large-thumb .single-slide img {
-    display: inline-block
+    display: inline-block;
+    /* border: solid white ; */
+    background-color: transparent;
 }
 
 .main-slider-large-thumb .single-slide .product-price {
@@ -5233,7 +5236,7 @@ button.axil-btn.btn-size-md i {
 }
 
 .main-slider-style-1 {
-    background-color: #f9f3f0;
+    background-color: gold;
     padding: 90px 0;
     position: relative;
     z-index: 1;
@@ -5839,6 +5842,7 @@ button.axil-btn.btn-size-md i {
     bottom: 0;
     right: -30px;
     display: none
+    
 }
 
 .main-slider-style-4 .slide-thumb-area .shape-group li.shape-1 svg path {
@@ -6256,7 +6260,7 @@ button.axil-btn.btn-size-md i {
 
 .social-share a {
     margin: 10px;
-    color: var(--color-body);
+    color: gold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7756,7 +7760,7 @@ button.axil-btn.btn-size-md i {
 
 .axil-mainmenu.axil-sticky .mainmenu>li>a {
     height: 80px;
-    line-height: 80px
+    line-height: 80px;
 }
 
 .axil-mainmenu.axil-sticky .mainmenu>li>a:before {
@@ -7764,7 +7768,7 @@ button.axil-btn.btn-size-md i {
 }
 
 .header-style-1 {
-    background-color: #f9f3f0;
+    background-color: gold;
     padding-bottom: 30px
 }
 
@@ -15325,6 +15329,8 @@ body.open .closeMask {
 }
 
 .footer-style-2 .footer-top {
+    background-color: #1e2a78;
+    color: gold;
     padding: 50px 0 0
 }
 
@@ -15335,6 +15341,7 @@ body.open .closeMask {
 
 .footer-style-2 .axil-footer-widget .widget-title {
     font-weight: 600
+
 }
 
 .footer-style-2 .axil-footer-widget .inner .download-btn-group {

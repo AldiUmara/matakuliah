@@ -16,3 +16,7 @@ $routes->get('/produk', 'Produk::index');
 $routes->get('/login', 'Login::index');
 $routes->get('/register', 'Register::index');
 $routes->get('/beranda', 'Beranda::index');
+$routes->get('/shop', 'Shop::index');
+$routes->get('/contact', 'Contact::index');
+$routes->get('/cart', 'Cart::index');
+$routes->get('/wishlist', 'Wishlist::index');

@@ -6,9 +6,8 @@ class Register extends BaseController
 {
     public function index()
     {
-        echo view('layout/header');
+        echo view('layout2/header2');
         echo view('pages/register');
-        echo view('layout/footer');
         
     }
 }
