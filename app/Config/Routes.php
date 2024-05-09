@@ -22,3 +22,4 @@ $routes->get('/cart', 'Cart::index');
 $routes->get('/wishlist', 'Wishlist::index');
 $routes->get('/checkout', 'Checkout::index');
 $routes->get('/product1', 'Product1::index');
+$routes->get('/detail', 'Detail::index');

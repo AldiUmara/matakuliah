@@ -57,23 +57,23 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>Nama Depan <span>*</span></label>
+                                            <label style="color : black">Nama Depan <span>*</span></label>
                                             <input type="text" id="first-name" placeholder="Aldi">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label>Nama Belakang <span>*</span></label>
+                                            <label style="color : black">Nama Belakang <span>*</span></label>
                                             <input type="text" id="last-name" placeholder="Umara">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Nama Perusahaan</label>
+                                    <label style="color : black">Nama Perusahaan</label>
                                     <input type="text" id="company-name">
                                 </div>
                                 <div class="form-group">
-                                    <label>Negara/Wilayah</label>
+                                    <label style="color : black">Negara/Wilayah</label>
                                     <input type="text" id="company-name">
                                     <select id="Region">
                                         <option value="3">Indonesia</option>
@@ -85,25 +85,25 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Alamat Jalan <span>*</span></label>
+                                    <label style="color : black">Alamat Jalan <span>*</span></label>
                                     <input type="text" id="address1" class="mb--15"
                                         placeholder="Nomer Rumah dan Nama Jalan">
                                     <input type="text" id="address2" placeholder="Apartemen, suite, unit, dll. (opsi)">
                                 </div>
                                 <div class="form-group">
-                                    <label>Kota <span>*</span></label>
+                                    <label style="color : black">Kota <span>*</span></label>
                                     <input type="text" id="town">
                                 </div>
                                 <div class="form-group">
-                                    <label>Negara</label>
+                                    <label style="color : black">Negara</label>
                                     <input type="text" id="country">
                                 </div>
                                 <div class="form-group">
-                                    <label>No. Telepon <span>*</span></label>
+                                    <label style="color : black">No. Telepon <span>*</span></label>
                                     <input type="tel" id="phone">
                                 </div>
                                 <div class="form-group">
-                                    <label>Alamat Email <span>*</span></label>
+                                    <label style="color : black">Alamat Email <span>*</span></label>
                                     <input type="email" id="email">
                                 </div>
                                 <div class="form-group input-group">
@@ -151,7 +151,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label>Catatan Lainnya (opsi)</label>
+                                    <label style="color : black">Catatan Lainnya (opsi)</label>
                                     <textarea id="notes" rows="2"
                                         placeholder="Catatan tentang pesanan Anda, misalnya catatan khusus untuk pengiriman."></textarea>
                                 </div>

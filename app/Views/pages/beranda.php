@@ -8,11 +8,11 @@
                             <div class="single-slide slick-slide" data-sal="slide-up" data-sal-delay="400"
                                 data-sal-duration="800">
                                 <span class="subtitle"><i class="fas fa-fire"></i>Tawaran Menarik Minggu Ini!</span>
-                                <h1 class="title">Kaos Polos</h1>
+                                <h1 class="title" style="color : #1e2a78;">Kaos Polos</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="<?php base_url() ?>shop" class="axil-btn btn-bg-white"><i
-                                                class="fal fa-shopping-cart"></i>Beli sekarang</a>
+                                        <a href="<?php base_url() ?>shop" class="axil-btn btn-bg-white" style="color :gold"><i
+                                                class="fal fa-shopping-cart" style="color :gold"></i>Beli sekarang</a>
 
                                         <div class="content">
                                             <span class="rating-icon">
@@ -27,11 +27,11 @@
                             </div>
                             <div class="single-slide slick-slide">
                                 <span class="subtitle"><i class="fas fa-fire"></i> Tawaran Menarik Minggu Ini!</span>
-                                <h1 class="title">Sweater Polos</h1>
+                                <h1 class="title" style="color : #1e2a78;">Sweater Polos</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white"><i
-                                                class="fal fa-shopping-cart"></i>Beli sekarang</a>
+                                        <a href="shop" class="axil-btn btn-bg-white" style="color :gold"><i
+                                                class="fal fa-shopping-cart"  style="color :gold"></i>Beli sekarang</a>
                                     </div>
                                     <div class="item-rating">
 
@@ -48,11 +48,11 @@
                             </div>
                             <div class="single-slide slick-slide">
                                 <span class="subtitle"><i class="fas fa-fire"></i> Tawaran Menarik Minggu Ini!</span>
-                                <h1 class="title">Sepatu Sneaker</h1>
+                                <h1 class="title" style="color : #1e2a78;">Sepatu Sneaker</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white"><i
-                                                class="fal fa-shopping-cart"></i>Beli sekarang</a>
+                                        <a href="shop" class="axil-btn btn-bg-white" style="color :gold"><i
+                                                class="fal fa-shopping-cart" style="color :gold"></i>Beli sekarang</a>
                                     </div>
                                     <div class="item-rating">
 
@@ -69,11 +69,11 @@
                             </div>
                             <div class="single-slide slick-slide">
                                 <span class="subtitle"><i class="fas fa-fire"></i> Tawaran Menarik Minggu Ini!</span>
-                                <h1 class="title">Hoodie Polos</h1>
+                                <h1 class="title" style="color : #1e2a78;">Hoodie Polos</h1>
                                 <div class="slide-action">
                                     <div class="shop-btn">
-                                        <a href="shop.html" class="axil-btn btn-bg-white"><i
-                                                class="fal fa-shopping-cart"></i>Beli sekarang</a>
+                                        <a href="shop" class="axil-btn btn-bg-white" style="color :gold"><i
+                                                class="fal fa-shopping-cart" style="color :gold"></i>Beli sekarang</a>
                                     </div>
                                     <div class="item-rating">
 
@@ -98,30 +98,30 @@
                                 data-sal-duration="1500">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-21.png" alt="Product">
                                 <div class="product-price">
-                                    <span class="text">Dari</span>
-                                    <span class="price-amount"> Rp 70.000</span>
+                                    <span class="text" style="color :gold">Dari</span>
+                                    <span class="price-amount" style="color :gold"> Rp 70.000</span>
                                 </div>
                             </div>
                             <div class="single-slide slick-slide" data-sal="slide-up" data-sal-delay="600"
                                 data-sal-duration="1500">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-16.png" alt="Product">
                                 <div class="product-price">
-                                    <span class="text">Dari</span>
-                                    <span class="price-amount">Rp 80.000</span>
+                                    <span class="text"style="color :gold">Dari</span>
+                                    <span class="price-amount" style="color :gold">Rp 80.000</span>
                                 </div>
                             </div>
                             <div class="single-slide slick-slide">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-36.png" alt="Product">
                                 <div class="product-price">
-                                    <span class="text">Dari</span>
-                                    <span class="price-amount">Rp 150.000</span>
+                                    <span class="text" style="color :gold">Dari</span>
+                                    <span class="price-amount" style="color :gold">Rp 150.000</span>
                                 </div>
                             </div>
                             <div class="single-slide slick-slide">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-18.png" alt="Product">
                                 <div class="product-price">
-                                    <span class="text">Dari</span>
-                                    <span class="price-amount">Rp 140.000</span>
+                                    <span class="text" style="color :gold">Dari</span>
+                                    <span class="price-amount" style="color :gold">Rp 140.000</span>
                                 </div>
                             </div>
                         </div>
@@ -129,10 +129,10 @@
                 </div>
             </div>
         </div>
-        <ul class="shape-group">
+        <!-- <ul class="shape-group">
             <li class="shape-1"><img src="<?php base_url() ?>/images/others/shape-1.png" alt="Shape"></li>
             <li class="shape-2"><img src="<?php base_url() ?>/images/others/shape-2.png" alt="Shape"></li>
-        </ul>
+        </ul> -->
     </div>
 
     <!-- Start Categorie Area  -->

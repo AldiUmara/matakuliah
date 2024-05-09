@@ -509,7 +509,8 @@ h2,
 
 h3,
 .h3 {
-    font-size: var(--h3)
+    font-size: var(--h3);
+    color : black;
 }
 
 h4,
@@ -643,7 +644,7 @@ p {
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b1);
     font-weight: var(--p-regular);
-    color: var(--color-body);
+    color: black;
     margin: 0 0 30px
 }
 
@@ -2924,17 +2925,17 @@ input[type=submit]:hover {
     }
 }
 
-.axil-breadcrumb-area .inner .bradcrumb-thumb::after {
+/* .axil-breadcrumb-area .inner .bradcrumb-thumb::after {
     content: "";
     height: 110px;
     width: 110px;
-    background-color: var(--color-white);
+    background-color: gold;
     border-radius: 50%;
     position: absolute;
     top: -10px;
     right: 60px;
     z-index: -1
-}
+} */
 
 .axil-breadcrumb {
     display: flex;
@@ -3036,8 +3037,7 @@ button.axil-btn.btn-bg-white {
 
 a.axil-btn.btn-bg-white:before,
 button.axil-btn.btn-bg-white:before {
-    background-color: var(--color-white);
-    border : solid #1e2a78;
+    background-color: #1e2a78;
 }
 
 a.axil-btn.btn-bg-lighter,
@@ -3200,7 +3200,8 @@ button.axil-btn.btn-size-md i {
 
 .categrie-product a {
     padding: 28px 12px;
-    display: block
+    display: block;
+    border : solid black;
 }
 
 .categrie-product img {
@@ -3330,7 +3331,8 @@ button.axil-btn.btn-size-md i {
 
 .axil-contact-page .title {
     font-weight: var(--s-medium);
-    color: var(--color-black)
+    color: gold;
+    background-color: #1e2a78;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3357,7 +3359,8 @@ button.axil-btn.btn-size-md i {
 }
 
 .axil-contact-page .contact-location span {
-    display: block
+    display: block;
+    color: black;
 }
 
 @media only screen and (max-width: 767px) {
@@ -5000,7 +5003,7 @@ button.axil-btn.btn-size-md i {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
-    color: var(--color-secondary)
+    color: #1e2a78;
 }
 
 .main-slider-content .subtitle i {
@@ -5163,14 +5166,14 @@ button.axil-btn.btn-size-md i {
 
 .main-slider-large-thumb .single-slide img {
     display: inline-block;
-    /* border: solid white ; */
+    border: solid #1e2a78;
     background-color: transparent;
 }
 
 .main-slider-large-thumb .single-slide .product-price {
     height: 100px;
     width: 100px;
-    background-color: var(--color-white);
+    background-color: #1e2a78;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -5231,7 +5234,7 @@ button.axil-btn.btn-size-md i {
 }
 
 .main-slider-large-thumb .axil-slick-dots .slick-dots li.slick-active button {
-    background-color: var(--color-secondary);
+    background-color:#1e2a78;
     opacity: 1
 }
 
@@ -9901,6 +9904,7 @@ body.open .closeMask {
 
 .axil-product>.thumbnail>a img {
     border-radius: 6px;
+    border: solid black;
     width: 100%;
     transition: .3s
 }
@@ -9965,7 +9969,8 @@ body.open .closeMask {
 }
 
 .axil-product .product-content .inner {
-    transition: .3s
+    transition: .3s;
+    text-align: center;
 }
 
 .axil-product .product-content .sub-title {
@@ -9981,13 +9986,15 @@ body.open .closeMask {
 }
 
 .axil-product .product-content .title a {
-    transition: .3s
+    transition: .3s;
+    color: black;
 }
 
 .axil-product .product-content .product-price-variant {
     margin: -4px;
     transition: var(--transition);
-    transition-delay: .1s
+    transition-delay: .1s;
+    background-color: #1e2a78;
 }
 
 @media only screen and (max-width: 575px) {
@@ -9998,7 +10005,7 @@ body.open .closeMask {
 
 .axil-product .product-content .product-price-variant span.price {
     margin: 4px;
-    color: var(--color-heading);
+    color: gold;
     font-weight: 700;
     font-size: 20px;
     font-family: var(--font-secondary)
@@ -13099,8 +13106,9 @@ body.open .closeMask {
     font-size: 20px;
     text-transform: capitalize;
     border: none;
-    color: var(--color-heading);
-    padding: 18px 15px
+    color: gold;
+    padding: 18px 15px;
+    background-color: #1e2a78;
 }
 
 @media only screen and (max-width: 991px) {

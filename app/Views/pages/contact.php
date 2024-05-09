@@ -16,13 +16,13 @@
                                 <li class="separator"></li>
                                 <li class="axil-breadcrumb-item active" aria-current="page">Contact</li>
                             </ul> -->
-                            <h1 class="title">Hubungi Kami</h1>
+                            <h1 class="title" style="color : #1e2a78">Hubungi Kami</h1>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-4">
                         <div class="inner">
                             <div class="bradcrumb-thumb">
-                                <img src="<?php base_url() ?>/images/product/product-45.png" alt="Image">
+                                <img src="<?php base_url() ?>/images/logo/logo_thrift.png" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -47,25 +47,25 @@
                                     <div class="row row--10">
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <label for="contact-name">Nama <span>*</span></label>
+                                                <label for="contact-name" style="color : black">Nama <span>*</span></label>
                                                 <input type="text" name="contact-name" id="contact-name">
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <label for="contact-phone">Nomor tlp <span>*</span></label>
+                                                <label for="contact-phone" style="color : black">Nomor tlp <span>*</span></label>
                                                 <input type="text" name="contact-phone" id="contact-phone">
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group">
-                                                <label for="contact-email">E-mail <span>*</span></label>
+                                                <label for="contact-email" style="color : black">E-mail <span>*</span></label>
                                                 <input type="email" name="contact-email" id="contact-email">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <label for="contact-message">Pesan Anda</label>
+                                                <label for="contact-message" style="color : black">Pesan Anda</label>
                                                 <textarea name="contact-message" id="contact-message" cols="1"
                                                     rows="2"></textarea>
                                             </div>
@@ -87,7 +87,7 @@
                                     Kembangan Selatan, Kode Pos : 1610<br>
                                     Jakarta Barat.</span>
                                 <span class="phone">No. Telepon: </span>
-                                <span class="email">Email: aldiumara1@gmail.com</span>
+                                <span class="email">Email: thriftfamily@gmail.com</span>
                             </div>
                             <div class="contact-career mb--40">
                                 <h4 class="title mb--20">Karir</h4>

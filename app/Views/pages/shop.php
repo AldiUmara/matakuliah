@@ -28,13 +28,13 @@
                                 <li class="separator"></li>
                                 <li class="axil-breadcrumb-item active" aria-current="page">My Account</li>
                             </ul> -->
-                        <h1 class="title">Semua Produk</h1>
+                        <h1 class="title" style="color : #1e2a78">Semua Produk</h1>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-4">
                     <div class="inner">
                         <div class="bradcrumb-thumb">
-                            <img src="<?php base_url() ?>/images/logo/logo_titel.png" width="120px" height="auto"
+                            <img src="<?php base_url() ?>/images/logo/logo_thrift.png"
                                 alt="Image">
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="axil-product product-style-one has-color-pick mt--40">
                         <div class="thumbnail">
-                            <a href="single-product.html">
+                            <a href="detail">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-16.png"
                                     alt="Product Images">
                             </a>
@@ -116,14 +116,14 @@
                                 <ul class="cart-action">
                                     <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                     <li class="select-option"><a href="cart">Add to Cart</a></li>
-                                    <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
+                                    <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="product-content">
                             <div class="inner">
-                                <h5 class="title"><a href="single-product.html">Sweater Polos</a></h5>
+                                <h5 class="title"><a href="detail">Sweater Polos</a></h5>
                                 <div class="product-price-variant">
                                     <span class="price current-price">Rp 80.000</span>
                                     <span class="price old-price">Rp 100.000</span>
@@ -146,7 +146,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="axil-product product-style-one has-color-pick mt--40">
                         <div class="thumbnail">
-                            <a href="single-product.html">
+                            <a href="detail">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-17.png"
                                     alt="Product Images">
                             </a>
@@ -154,14 +154,14 @@
                                 <ul class="cart-action">
                                     <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                     <li class="select-option"><a href="cart">Add to Cart</a></li>
-                                    <li class="quickview"><a href="product1" data-bs-toggle="modal"
-                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
+                                    <!-- <li class="quickview"><a href="product1" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="product-content">
                             <div class="inner">
-                                <h5 class="title"><a href="single-product.html">Hoddie Polos</a></h5>
+                                <h5 class="title"><a href="detail">Hoddie Polos</a></h5>
                                 <div class="product-price-variant">
                                     <span class="price current-price">Rp 135.000</span>
                                     <!-- <span class="price old-price">Rp 165.000</span> -->
@@ -184,7 +184,7 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="axil-product product-style-one has-color-pick mt--40">
                         <div class="thumbnail">
-                            <a href="single-product.html">
+                            <a href="detail">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-18.png"
                                     alt="Product Images">
                             </a>
@@ -194,15 +194,15 @@
                             <div class="product-hover-action">
                                 <ul class="cart-action">
                                     <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                    <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                    <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
+                                    <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                    <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="product-content">
                             <div class="inner">
-                                <h5 class="title"><a href="single-product.html">Hoddie Just a SMALL TOWN</a></h5>
+                                <h5 class="title"><a href="detail">Hoddie Just a SMALL TOWN</a></h5>
                                 <div class="product-price-variant">
                                     <span class="price current-price">Rp 140.000</span>
                                     <span class="price old-price">Rp 200.000</span>
@@ -225,22 +225,22 @@
                 <div class="col-xl-3 col-lg-4 col-sm-6">
                     <div class="axil-product product-style-one has-color-pick mt--40">
                         <div class="thumbnail">
-                            <a href="single-product.html">
+                            <a href="detail">
                                 <img src="<?php base_url() ?>/images/product/fashion/product-21.png"
                                     alt="Product Images">
                             </a>
                             <div class="product-hover-action">
                                 <ul class="cart-action">
                                     <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                    <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                    <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li>
+                                    <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                    <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                            data-bs-target="#quick-view-modal"><i class="far fa-eye"></i></a></li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="product-content">
                             <div class="inner">
-                                <h5 class="title"><a href="single-product.html">Kaos Polos</a></h5>
+                                <h5 class="title"><a href="detail">Kaos Polos</a></h5>
                                 <div class="product-price-variant">
                                     <span class="price current-price">Rp 70.000</span>
                                     <!-- <span class="price old-price">Rp 70.000</span> -->
@@ -321,7 +321,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="axil-product product-style-one has-color-pick mt--40">
                                     <div class="thumbnail">
-                                        <a href="single-product.html">
+                                        <a href="detail">
                                             <img src="<?php base_url() ?>/images/product/kacamata/product-big-04.png"
                                                 alt="Product Images">
                                         </a>
@@ -331,16 +331,16 @@
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                                <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
+                                                            class="far fa-eye"></i></a></li> -->
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Photocromic</a></h5>
+                                            <h5 class="title"><a href="detail">Photocromic</a></h5>
                                             <div class="product-price-variant">
                                                 <span class="price current-price">Rp 120.000</span>
                                                 <span class="price old-price">Rp 150.000</span>
@@ -363,23 +363,23 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="axil-product product-style-one has-color-pick mt--40">
                                     <div class="thumbnail">
-                                        <a href="single-product.html">
+                                        <a href="detail">
                                             <img src="<?php base_url() ?>/images/product/kacamata/product-big-05.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                                <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
+                                                            class="far fa-eye"></i></a></li> -->
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Blueray</a></h5>
+                                            <h5 class="title"><a href="detail">Blueray</a></h5>
                                             <div class="product-price-variant">
                                                 <span class="price current-price">Rp 90.000</span>
                                                 <!-- <span class="price old-price">Rp 120.000</span> -->
@@ -402,7 +402,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="axil-product product-style-one has-color-pick mt--40">
                                     <div class="thumbnail">
-                                        <a href="single-product.html">
+                                        <a href="detail">
                                             <img src="<?php base_url() ?>/images/product/kacamata/product-big-06.png"
                                                 alt="Product Images">
                                         </a>
@@ -412,16 +412,16 @@
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                                <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
+                                                            class="far fa-eye"></i></a></li> -->
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Polikarbonat</a></h5>
+                                            <h5 class="title"><a href="detail">Polikarbonat</a></h5>
                                             <div class="product-price-variant">
                                                 <span class="price current-price">Rp 140.000</span>
                                                 <span class="price old-price">Rp 200.000</span>
@@ -444,23 +444,23 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="axil-product product-style-one has-color-pick mt--40">
                                     <div class="thumbnail">
-                                        <a href="single-product.html">
+                                        <a href="detail">
                                             <img src="<?php base_url() ?>/images/product/kacamata/product-big-04.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                <li class="select-option"><a href="cart">Add to Cart</a></li>
+                                                <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
+                                                            class="far fa-eye"></i></a></li> -->
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Trivex</a></h5>
+                                            <h5 class="title"><a href="detail">Trivex</a></h5>
                                             <div class="product-price-variant">
                                                 <span class="price current-price">Rp 90.000</span>
                                                 <!-- <span class="price old-price">Rp 110.000</span> -->
@@ -542,7 +542,7 @@
                                         <div class="col-xl-3 col-lg-4 col-sm-6">
                                             <div class="axil-product product-style-one has-color-pick mt--40">
                                                 <div class="thumbnail">
-                                                    <a href="single-product.html">
+                                                    <a href="detail">
                                                         <img src="<?php base_url() ?>/images/product/fashion/product-13.png"
                                                             alt="Product Images">
                                                     </a>
@@ -552,21 +552,21 @@
                                                     <div class="product-hover-action">
                                                         <ul class="cart-action">
                                                             <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                            <li class="select-option"><a href="cart.html">Add to
+                                                            <li class="select-option"><a href="cart">Add to
                                                                     Cart</a></li>
-                                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                            <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                                     data-bs-target="#quick-view-modal"><i
-                                                                        class="far fa-eye"></i></a></li>
+                                                                        class="far fa-eye"></i></a></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="inner">
-                                                        <h5 class="title"><a href="single-product.html">G-SHOCK
+                                                        <h5 class="title"><a href="detail">G-SHOCK
                                                                 GDW5640</a></h5>
                                                         <div class="product-price-variant">
-                                                            <span class="price current-price">Rp 1.600.000</span>
-                                                            <span class="price old-price">Rp 2.0000.000</span>
+                                                            <span class="price current-price">Rp 640.000</span>
+                                                            <span class="price old-price">Rp 800.000</span>
                                                         </div>
                                                         <div class="color-variant-wrapper">
                                                             <ul class="color-variant">
@@ -586,24 +586,24 @@
                                         <div class="col-xl-3 col-lg-4 col-sm-6">
                                             <div class="axil-product product-style-one has-color-pick mt--40">
                                                 <div class="thumbnail">
-                                                    <a href="single-product.html">
+                                                    <a href="detail">
                                                         <img src="<?php base_url() ?>/images/product/fashion/product-25.png"
                                                             alt="Product Images">
                                                     </a>
                                                     <div class="product-hover-action">
                                                         <ul class="cart-action">
                                                             <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                            <li class="select-option"><a href="cart.html">Add to
+                                                            <li class="select-option"><a href="cart">Add to
                                                                     Cart</a></li>
-                                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                            <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                                     data-bs-target="#quick-view-modal"><i
-                                                                        class="far fa-eye"></i></a></li>
+                                                                        class="far fa-eye"></i></a></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="inner">
-                                                        <h5 class="title"><a href="single-product.html">Casio</a></h5>
+                                                        <h5 class="title"><a href="detail">Casio</a></h5>
                                                         <div class="product-price-variant">
                                                             <span class="price current-price">Rp 500.000</span>
                                                             <!-- <span class="price old-price">$50</span> -->
@@ -626,7 +626,7 @@
                                         <div class="col-xl-3 col-lg-4 col-sm-6">
                                             <div class="axil-product product-style-one has-color-pick mt--40">
                                                 <div class="thumbnail">
-                                                    <a href="single-product.html">
+                                                    <a href="detail">
                                                         <img src="<?php base_url() ?>/images/product/fashion/product-13.png"
                                                             alt="Product Images">
                                                     </a>
@@ -636,17 +636,17 @@
                                                     <div class="product-hover-action">
                                                         <ul class="cart-action">
                                                             <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                            <li class="select-option"><a href="cart.html">Add to
+                                                            <li class="select-option"><a href="cart">Add to
                                                                     Cart</a></li>
-                                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                            <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                                     data-bs-target="#quick-view-modal"><i
-                                                                        class="far fa-eye"></i></a></li>
+                                                                        class="far fa-eye"></i></a></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="inner">
-                                                        <h5 class="title"><a href="single-product.html">HD camera</a>
+                                                        <h5 class="title"><a href="detail">HD camera</a>
                                                         </h5>
                                                         <div class="product-price-variant">
                                                             <span class="price current-price">$45</span>
@@ -670,24 +670,24 @@
                                         <div class="col-xl-3 col-lg-4 col-sm-6">
                                             <div class="axil-product product-style-one has-color-pick mt--40">
                                                 <div class="thumbnail">
-                                                    <a href="single-product.html">
+                                                    <a href="detail">
                                                         <img src="<?php base_url() ?>/images/product/fashion/product-25.png"
                                                             alt="Product Images">
                                                     </a>
                                                     <div class="product-hover-action">
                                                         <ul class="cart-action">
                                                             <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
-                                                            <li class="select-option"><a href="cart.html">Add to
+                                                            <li class="select-option"><a href="cart">Add to
                                                                     Cart</a></li>
-                                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                            <!-- <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                                     data-bs-target="#quick-view-modal"><i
-                                                                        class="far fa-eye"></i></a></li>
+                                                                        class="far fa-eye"></i></a></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
                                                     <div class="inner">
-                                                        <h5 class="title"><a href="single-product.html">Guys Bomber
+                                                        <h5 class="title"><a href="detail">Guys Bomber
                                                                 Jacket</a></h5>
                                                         <div class="product-price-variant">
                                                             <span class="price current-price">$70</span>
@@ -717,49 +717,14 @@
                                                                 <div class="col-lg-9">
                                                                     <div class="category-select">
                                                                         <h3>Sepatu</h3>
-                                                                        <!-- Start Single Select  -->
-                                                                        <!-- <select class="single-select">
-                                            <option>Pakaian</option>
-                                            <option>Kaca Mata</option>
-                                            <option>Jam Tangan</option>
-                                            <option>Sepatu</option> -->
-                                                                        <!-- <option>Topi</option> -->
+                                                                       
                                                                         </select>
-                                                                        <!-- End Single Select  -->
-
-                                                                        <!-- Start Single Select  -->
-                                                                        <!-- <select class="single-select">
-                                            <option>Color</option>
-                                            <option>Red</option>
-                                            <option>Blue</option>
-                                            <option>Green</option>
-                                            <option>Pink</option>
-                                        </select> -->
-                                                                        <!-- End Single Select  -->
-
-                                                                        <!-- Start Single Select  -->
-                                                                        <!-- <select class="single-select">
-                                            <option>Price Range</option>
-                                            <option>0 - 100</option>
-                                            <option>100 - 500</option>
-                                            <option>500 - 1000</option>
-                                            <option>1000 - 1500</option>
-                                        </select> -->
-                                                                        <!-- End Single Select  -->
-
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-3">
                                                                     <div
                                                                         class="category-select mt_md--10 mt_sm--10 justify-content-lg-end">
-                                                                        <!-- Start Single Select  -->
-                                                                        <!-- <select class="single-select">
-                                            <option>Sort by Latest</option>
-                                            <option>Sort by Name</option>
-                                            <option>Sort by Price</option>
-                                            <option>Sort by Viewed</option>
-                                        </select> -->
-                                                                        <!-- End Single Select  -->
+                                                                        
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -771,7 +736,7 @@
                                                         <div
                                                             class="axil-product product-style-one has-color-pick mt--40">
                                                             <div class="thumbnail">
-                                                                <a href="single-product.html">
+                                                                <a href="detail">
                                                                     <img src="<?php base_url() ?>/images/product/fashion/product-16.png"
                                                                         alt="Product Images">
                                                                 </a>
@@ -783,17 +748,17 @@
                                                                         <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                                                         <li class="select-option"><a href="cart">Add to
                                                                                 Cart</a></li>
-                                                                        <li class="quickview"><a href="#"
+                                                                        <!-- <li class="quickview"><a href="#"
                                                                                 data-bs-toggle="modal"
                                                                                 data-bs-target="#quick-view-modal"><i
-                                                                                    class="far fa-eye"></i></a></li>
+                                                                                    class="far fa-eye"></i></a></li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                             <div class="product-content">
                                                                 <div class="inner">
                                                                     <h5 class="title"><a
-                                                                            href="single-product.html">Sweater Polos</a>
+                                                                            href="detail">Sweater Polos</a>
                                                                     </h5>
                                                                     <div class="product-price-variant">
                                                                         <span class="price current-price">Rp
@@ -802,12 +767,7 @@
                                                                     </div>
                                                                     <div class="color-variant-wrapper">
                                                                         <ul class="color-variant">
-                                                                            <!-- <li class="color-extra-01 active"><span><span class="color"></span></span>
-                                            </li>
-                                            <li class="color-extra-02"><span><span class="color"></span></span>
-                                            </li>
-                                            <li class="color-extra-03"><span><span class="color"></span></span>
-                                            </li> -->
+                                                                    
                                                                         </ul>
                                                                     </div>
                                                                 </div>
@@ -819,7 +779,7 @@
                                                         <div
                                                             class="axil-product product-style-one has-color-pick mt--40">
                                                             <div class="thumbnail">
-                                                                <a href="single-product.html">
+                                                                <a href="detail">
                                                                     <img src="<?php base_url() ?>/images/product/fashion/product-17.png"
                                                                         alt="Product Images">
                                                                 </a>
@@ -827,18 +787,18 @@
                                                                     <ul class="cart-action">
                                                                         <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                                                         <li class="select-option"><a
-                                                                                href="cart.html">Add to Cart</a></li>
-                                                                        <li class="quickview"><a href="#"
+                                                                                href="cart">Add to Cart</a></li>
+                                                                        <!-- <li class="quickview"><a href="#"
                                                                                 data-bs-toggle="modal"
                                                                                 data-bs-target="#quick-view-modal"><i
-                                                                                    class="far fa-eye"></i></a></li>
+                                                                                    class="far fa-eye"></i></a></li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                             <div class="product-content">
                                                                 <div class="inner">
                                                                     <h5 class="title"><a
-                                                                            href="single-product.html">Hoddie Polos</a>
+                                                                            href="detail">Hoddie Polos</a>
                                                                     </h5>
                                                                     <div class="product-price-variant">
                                                                         <span class="price current-price">Rp
@@ -864,7 +824,7 @@
                                                         <div
                                                             class="axil-product product-style-one has-color-pick mt--40">
                                                             <div class="thumbnail">
-                                                                <a href="single-product.html">
+                                                                <a href="detail">
                                                                     <img src="<?php base_url() ?>/images/product/fashion/product-18.png"
                                                                         alt="Product Images">
                                                                 </a>
@@ -875,18 +835,18 @@
                                                                     <ul class="cart-action">
                                                                         <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                                                         <li class="select-option"><a
-                                                                                href="cart.html">Add to Cart</a></li>
-                                                                        <li class="quickview"><a href="#"
+                                                                                href="cart">Add to Cart</a></li>
+                                                                        <!-- <li class="quickview"><a href="#"
                                                                                 data-bs-toggle="modal"
                                                                                 data-bs-target="#quick-view-modal"><i
-                                                                                    class="far fa-eye"></i></a></li>
+                                                                                    class="far fa-eye"></i></a></li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                             <div class="product-content">
                                                                 <div class="inner">
                                                                     <h5 class="title"><a
-                                                                            href="single-product.html">Hoddie Just a
+                                                                            href="detail">Hoddie Just a
                                                                             SMALL TOWN</a></h5>
                                                                     <div class="product-price-variant">
                                                                         <span class="price current-price">Rp
@@ -912,7 +872,7 @@
                                                         <div
                                                             class="axil-product product-style-one has-color-pick mt--40">
                                                             <div class="thumbnail">
-                                                                <a href="single-product.html">
+                                                                <a href="detail">
                                                                     <img src="<?php base_url() ?>/images/product/fashion/product-21.png"
                                                                         alt="Product Images">
                                                                 </a>
@@ -920,17 +880,17 @@
                                                                     <ul class="cart-action">
                                                                         <!-- <li class="wishlist"><a href="wishlist.html"><i class="far fa-heart"></i></a></li> -->
                                                                         <li class="select-option"><a
-                                                                                href="cart.html">Add to Cart</a></li>
-                                                                        <li class="quickview"><a href="#"
+                                                                                href="cart">Add to Cart</a></li>
+                                                                        <!-- <li class="quickview"><a href="#"
                                                                                 data-bs-toggle="modal"
                                                                                 data-bs-target="#quick-view-modal"><i
-                                                                                    class="far fa-eye"></i></a></li>
+                                                                                    class="far fa-eye"></i></a></li> -->
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                             <div class="product-content">
                                                                 <div class="inner">
-                                                                    <h5 class="title"><a href="single-product.html">Kaos
+                                                                    <h5 class="title"><a href="detail">Kaos
                                                                             Polos</a></h5>
                                                                     <div class="product-price-variant">
                                                                         <span class="price current-price">Rp
@@ -939,80 +899,13 @@
                                                                     </div>
                                                                     <div class="color-variant-wrapper">
                                                                         <ul class="color-variant">
-                                                                            <!-- <li class="color-extra-01 active"><span><span class="color"></span></span>
-                                            </li>
-                                            <li class="color-extra-02"><span><span class="color"></span></span>
-                                            </li>
-                                            <li class="color-extra-03"><span><span class="color"></span></span>
-                                            </li> -->
+                                                                            
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <!-- <div class="axil-shop-area axil-section-gap bg-color-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="axil-shop-top">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="category-select">
-                                        <h3>Shoes</h3> -->
-                                                    <!-- Start Single Select  -->
-                                                    <!-- <select class="single-select">
-                                            <option>Pakaian</option>
-                                            <option>Kaca Mata</option>
-                                            <option>Jam Tangan</option>
-                                            <option>Sepatu</option> -->
-                                                    <!-- <option>Topi</option> -->
-                                                    <!-- </select> -->
-                                                    <!-- End Single Select  -->
-
-                                                    <!-- Start Single Select  -->
-                                                    <!-- <select class="single-select">
-                                            <option>Color</option>
-                                            <option>Red</option>
-                                            <option>Blue</option>
-                                            <option>Green</option>
-                                            <option>Pink</option>
-                                        </select> -->
-                                                    <!-- End Single Select  -->
-
-                                                    <!-- Start Single Select  -->
-                                                    <!-- <select class="single-select">
-                                            <option>Price Range</option>
-                                            <option>0 - 100</option>
-                                            <option>100 - 500</option>
-                                            <option>500 - 1000</option>
-                                            <option>1000 - 1500</option>
-                                        </select> -->
-                                                    <!-- End Single Select  -->
-
-                                                    <!-- </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="category-select mt_md--10 mt_sm--10 justify-content-lg-end"> -->
-                                                    <!-- Start Single Select  -->
-                                                    <!-- <select class="single-select">
-                                            <option>Sort by Latest</option>
-                                            <option>Sort by Name</option>
-                                            <option>Sort by Price</option>
-                                            <option>Sort by Viewed</option>
-                                        </select> -->
-                                                    <!-- End Single Select  -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <!-- End Axil Newsletter Area  -->
+                                                    </div>                                            
 </main>
 
 </div>

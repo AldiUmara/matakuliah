@@ -32,48 +32,48 @@
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i
                                                 class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product.html"><img
-                                                src="<?php base_url() ?>/images/product/electric/product-01.png"
+                                                src="<?php base_url() ?>/images/product/sepatu/blog-02.png"
                                                 alt="Digital Product"></a></td>
                                     <td class="product-title"><a href="single-product.html">Sneaker</a></td>
-                                    <td class="product-price" data-title="Price"><span class="">Rp </span>250.000</td>
+                                    <td class="product-price" data-title="Price" style="color : black"><span class="">Rp </span>250.000</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="">Rp </span>250.000
+                                    <td class="product-subtotal" data-title="Subtotal" style="color : black"><span class="">Rp </span>250.000
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i
                                                 class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product-2.html"><img
-                                                src="<?php base_url() ?>/images/product/electric/product-02.png"
+                                                src="<?php base_url() ?>/images/product/sepatu/blog-09.png"
                                                 alt="Digital Product"></a></td>
                                     <td class="product-title"><a href="single-product-2.html">Ortuseight</a></td>
-                                    <td class="product-price" data-title="Price"><span class="">Rp </span>350.000</td>
+                                    <td class="product-price" data-title="Price" style="color : black"><span class="">Rp </span>350.000</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="">Rp </span>350.000
+                                    <td class="product-subtotal" data-title="Subtotal" style="color : black"><span class="">Rp </span>350.000
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="product-remove"><a href="#" class="remove-wishlist"><i
                                                 class="fal fa-times"></i></a></td>
                                     <td class="product-thumbnail"><a href="single-product-3.html"><img
-                                                src="<?php base_url() ?>/images/product/electric/product-03.png"
+                                                src="<?php base_url() ?>/images/product/sepatu/blog-09.png"
                                                 alt="Digital Product"></a></td>
                                     <td class="product-title"><a href="single-product-3.html">Specs</a></td>
-                                    <td class="product-price" data-title="Price"><span class="">Rp </span>200.000</td>
+                                    <td class="product-price" data-title="Price" style="color : black"><span class="">Rp </span>200.000</td>
                                     <td class="product-quantity" data-title="Qty">
                                         <div class="pro-qty">
                                             <input type="number" class="quantity-input" value="1">
                                         </div>
                                     </td>
-                                    <td class="product-subtotal" data-title="Subtotal"><span class="">Rp</span>200.000
+                                    <td class="product-subtotal" data-title="Subtotal" style="color : black"><span class="">Rp</span>200.000
                                     </td>
                                 </tr>
                             </tbody>

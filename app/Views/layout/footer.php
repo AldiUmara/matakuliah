@@ -100,7 +100,7 @@
                         <div class="inner">
                             <ul class="support-list-item">
                                 <li><a href="<?php base_url() ?>aldiumara1@gmail.com" style='color : gold'><i
-                                            class="fal fa-envelope-open"></i> aldiumara1@gmail.com</a></li>
+                                            class="fal fa-envelope-open"></i> thriftfamily@gmail.com</a></li>
                                 <li><a href="<?php base_url() ?>tel:(+62) 128-467-1956" style='color : gold'><i
                                             class="fal fa-phone-alt"></i> (+62) 128-467-1956</a></li>
                                 <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
